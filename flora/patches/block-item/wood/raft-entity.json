@@ -1,0 +1,9 @@
+[ 
+	{ file: "game:entities/water/boat/boat", op: "add", path: "/variantgroups/1/states/-", value: "spruce"}, 
+    { file: "game:entities/water/boat/boat", op: "add", path: "/variantgroups/1/states/-", value: "fir"},
+    { file: "game:entities/water/boat/boat", op: "add", path: "/variantgroups/1/states/-", value: "aspen"},
+    { file: "game:entities/water/boat/boat", op: "add", path: "/variantgroups/1/states/-", value: "limba"}, 
+    { file: "game:entities/water/boat/boat", op: "add", path: "/variantgroups/1/states/-", value: "shorea"}, 
+    { file: "game:entities/water/boat/boat", op: "add", path: "/variantgroups/1/states/-", value: "baobab"},
+    { file: "game:entities/water/boat/boat", op: "add", path: "/variantgroups/1/states/-", value: "beech"}
+]

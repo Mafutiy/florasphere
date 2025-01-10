@@ -1,0 +1,199 @@
+[ 
+
+    { file: "game:blocktypes/roofing/beam-plane", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/beam-plane", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/beam-plane", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/beam-plane", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/beam-plane", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/beam-plane", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/beam-plane", op: "add", path: "/variantgroups/0/states/-", value: "limba"},	
+    
+	{ file: "game:blocktypes/roofing/beam-ridge", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/beam-ridge", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/beam-ridge", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/beam-ridge", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/beam-ridge", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/beam-ridge", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/beam-ridge", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+    
+    { file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofing", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+	
+    { file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingbottom", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-inner", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingcorner-outer", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfleft", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofinghalfright", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingridge", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgeend", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+    { file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfleft", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingridgehalfright", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+	
+    { file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingtip", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	},
+
+    { file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+	{ file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+	{ file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+	{ file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/variantgroups/0/states/-", value: "spruce"},
+	{ file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+	{ file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/variantgroups/0/states/-", value: "shorea"},
+	{ file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/variantgroups/0/states/-", value: "limba"},
+	{ file: "game:blocktypes/roofing/slantedroofingtop", op: "add", path: "/texturesByType/@.*-(baobab|aspen|beech|fir|spruce|limba|shorea)-.*", value: 
+		{
+			"acacia1": { base: "block/wood/planks/{material}1" },
+			"acacia-top": { base: "block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "block/wood/shingles/{material}-side" },
+		}
+	}
+]

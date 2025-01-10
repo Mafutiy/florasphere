@@ -1,0 +1,21 @@
+[
+{ file: "wildcraftfruit:patches/vanilla_berry_patches", op: "replace", path: "/16/value", value: {
+		"*-ripe": [
+			{ type: "item", code: "fruit-{type}", quantity: { avg: 1.2 }  },
+		]
+}
+},
+{ file: "wildcraftfruit:patches/vanilla_berry_patches", op: "replace", path: "/behaviorsByType/*-ripe/0/properties/harvestedStack/quantity/avg", 
+value: 1.2
+},
+{ file: "wildcraftfruit:patches/vanilla_berry_patches", op: "replace", path: "/17/value", value:
+{
+    "*-blueberry-empty": { base: "block/plant/berrybush/blueberry"},
+    "*-blueberry-*": { base: "block/plant/berrybush/blueberry1" },
+    "*-cranberry-empty": { base: "block/plant/berrybush/cranberry"},
+    "*-cranberry-*": { base: "block/plant/berrybush/cranberry1" },
+    "*-empty": { base: "block/plant/berrybush/small*", selectiveElements: ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+    "*": { base: "block/plant/berrybush/small*" }
+    } 
+}
+]

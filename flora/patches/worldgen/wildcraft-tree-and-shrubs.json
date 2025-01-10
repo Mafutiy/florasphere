@@ -1,0 +1,699 @@
+[
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/0/value", value:
+{
+        "Generator": "sal",
+        "Weight": 5,
+        "SuitabilitySizeBonus": 0.1,
+        "MinSize": 0.8,
+        "MaxSize": 1,
+        "MinTemp": 27,
+        "MaxTemp": 40,
+        "MinRain": 185,
+        "MaxRain": 235,
+        "MinFert": 90,
+        "MaxFert": 255,
+        "MinForest": 115,
+        "MaxForest": 200,
+        "MinHeight": 0,
+        "MaxHeight": 0.5
+    }
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/1/value", value:
+{
+        "Generator": "saxaul",
+        "Weight": 1,
+        "MinTemp": 14,
+        "MaxTemp": 25,
+        "MinRain": 0,
+        "MaxRain": 80,
+        "MinFert": 0,
+        "MaxFert": 100,
+        "MinForest": 0,
+        "MaxForest": 140,
+        "MinHeight": 0,
+        "MaxHeight": 0.44
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/2/value", value:
+{
+        "Generator": "shrubsaxaul",
+        "Weight": 100,
+        "MinSize": 0.7,
+        "MaxSize": 1,
+        "MinTemp": 14,
+        "MaxTemp": 26,
+        "MinRain": 0,
+        "MaxRain": 80,
+        "MinFert": 0,
+        "MaxFert": 100,
+        "MinForest": 0,
+        "MaxForest": 140,
+        "MinHeight": 0,
+        "MaxHeight": 0.5
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/5/value", value:
+{
+    "Generator": "yew",
+    "Weight": 1,
+    "MinSize": 0.9,
+    "MaxSize": 1.1,
+    "MinTemp": 0,
+    "MaxTemp": 12,
+    "MinRain": 90,
+    "MaxRain": 190,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 80,
+    "MaxForest": 160,
+    "MinHeight": 0.55,
+    "MaxHeight": 1
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/6/value", value:
+{
+    "Generator": "coastdouglasfir",
+    "Weight": 30,
+    "SuitabilitySizeBonus": 0.8,
+    "MinTemp": 15,
+    "MaxTemp": 19,
+    "MinRain": 160,
+    "MaxRain": 200,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 60,
+    "MaxForest": 220,
+    "MinHeight": 0,
+    "MaxHeight": 0.4
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/7/value", value:
+{
+    "Generator": "mountaindouglasfir",
+    "Weight": 20,
+    "SuitabilitySizeBonus": 0.8,
+    "MinTemp": 15,
+    "MaxTemp": 19,
+    "MinRain": 165,
+    "MaxRain": 200,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 100,
+    "MaxForest": 220,
+    "MinHeight": 0.45,
+    "MaxHeight": 0.9
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/8/value", value:
+{
+    "Generator": "redcedar",
+    "Weight": 30,
+    "SuitabilitySizeBonus": 0.6,
+    "MinTemp": 16,
+    "MaxTemp": 20,
+    "MinRain": 155,
+    "MaxRain": 180,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 60,
+    "MaxForest": 220,
+    "MinHeight": 0,
+    "MaxHeight": 0.4
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/9/value", value:
+{
+    "Generator": "pyramidalpoplar",
+    "Weight": 5,
+    "MinSize": 0.6,
+    "MaxSize": 1,
+    "MinTemp": 15,
+    "MaxTemp": 12,
+    "MinRain": 180,
+    "MaxRain": 220,
+    "MinFert": 90,
+    "MaxFert": 200,
+    "MinForest": 20,
+    "MaxForest": 200,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/10/value", value:
+{
+    "Generator": "blackpoplar",
+    "Weight": 5,
+    "MinTemp": -4,
+    "MaxTemp": 10,
+    "MinRain": 95,
+    "MaxRain": 190,
+    "MinFert": 90,
+    "MaxFert": 200,
+    "MinForest": 90,
+    "MaxForest": 200,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/11/value", value:
+{
+    "Generator": "spruce",
+    "Weight": 0,
+    "SuitabilitySizeBonus": 0,
+    "MinTemp": 0,
+    "MaxTemp": 0,
+    "MinRain": 0,
+    "MaxRain": 0,
+    "MinFert": 0,
+    "MaxFert": 0,
+    "MinForest": 0,
+    "MaxForest": 0,
+    "MinHeight": 0,
+    "MaxHeight": 0
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/12/value", value:
+{
+    "Generator": "cedar",
+    "Weight": 5,
+    "SuitabilitySizeBonus": 0.8,
+    "MinTemp": -10,
+    "MaxTemp": 2,
+    "MinRain": 90,
+    "MaxRain": 250,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 130,
+    "MaxForest": 255,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.65
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/13/value", value:
+{
+    "Generator": "cedar",
+    "Weight": 2,
+    "SuitabilitySizeBonus": 0.7,
+    "MinTemp": -10,
+    "MaxTemp": 6,
+    "MinRain": 75,
+    "MaxRain": 150,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 90,
+    "MaxForest": 255,
+    "MinHeight": 0,
+    "MaxHeight": 0.75
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/15/value", value:
+{
+    "Generator": "elm",
+    "Weight": 5,
+    "MinSize": 0.7,
+    "MaxSize": 1,
+    "MinTemp": 10,
+    "MaxTemp": 18,
+    "MinRain": 190,
+    "MaxRain": 235,
+    "MinFert": 60,
+    "MaxFert": 255,
+    "MinForest": 70,
+    "MaxForest": 255,
+    "MinHeight": 0.1,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/16/value", value:
+{
+    "Generator": "thickelm",
+    "Weight": 1,
+    "SuitabilitySizeBonus": 0.2,
+    "MinTemp": 11,
+    "MaxTemp": 18,
+    "MinRain": 200,
+    "MaxRain": 225,
+    "MinFert": 60,
+    "MaxFert": 255,
+    "MinForest": 70,
+    "MaxForest": 255,
+    "MinHeight": 0.3,
+    "MaxHeight": 0.5
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/17/value", value:
+{
+    "Generator": "alder",
+    "Weight": 5,
+    "SuitabilitySizeBonus": 0.6,
+    "MinSize": 0.7,
+    "MaxSize": 0.9,
+    "MinTemp": -8,
+    "MaxTemp": 6,
+    "MinRain": 200,
+    "MaxRain": 255,
+    "MinFert": 30,
+    "MaxFert": 230,
+    "MinForest": 70,
+    "MaxForest": 170,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.5
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/18/value", value:
+{
+    "Generator": "shrubalder",
+    "Weight": 3,
+    "MinSize": 0.7,
+    "MaxSize": 1,
+    "MinTemp": -12,
+    "MaxTemp": 8,
+    "MinRain": 150,
+    "MaxRain": 255,
+    "MinFert": 30,
+    "MaxFert": 230,
+    "MinForest": 50,
+    "MaxForest": 140,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.45
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/19/value", value:
+{
+    "Generator": "thinbirch",
+    "Weight": 0,
+    "MinTemp": 0,
+    "MaxTemp": 0,
+    "MinRain": 0,
+    "MaxRain": 0,
+    "MinFert": 0,
+    "MaxFert": 0,
+    "MinForest": 0,
+    "MaxForest": 0,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.4
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/20/value", value:
+{
+    "Generator": "brideinwhite",
+    "Weight": 4,
+    "MinTemp": -4,
+    "MaxTemp": 14,
+    "MinRain": 150,
+    "MaxRain": 255,
+    "MinFert": 100,
+    "MaxFert": 255,
+    "MinForest": 0,
+    "MaxForest": 255,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.4
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/21/value", value:
+{
+    "Generator": "thinlarch",
+    "Weight": 0,
+    "MinSize": 0,
+    "MaxSize": 0,
+    "MinTemp": 0,
+    "MaxTemp": 0,
+    "MinRain": 0,
+    "MaxRain": 0,
+    "MinFert": 0,
+    "MaxFert": 0,
+    "MinForest": 0,
+    "MaxForest": 0,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.5
+
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/22/value", value:
+{
+    "Generator": "willow",
+    "Weight": 4,
+    "SuitabilitySizeBonus": 0.8,
+    "MinTemp": 6,
+    "MaxTemp": 15,
+    "MinRain": 220,
+    "MaxRain": 255,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 80,
+    "MaxForest": 200,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.4
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/23/value", value:
+{
+    "Generator": "swampwillow",
+           "habitat": "Water",
+    "Weight": 2,
+    "MinSize": 0.8,
+    "MaxSize": 1.2,
+    "MinTemp": 8,
+    "MaxTemp": 14,
+    "MinRain": 220,
+    "MaxRain": 255,
+    "MinFert": 0,
+    "MaxFert": 255,
+    "MinForest": 0,
+    "MaxForest": 200,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.4
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/24/value", value:
+{
+    "Generator": "thinwillow",
+    "Weight": 2,
+        "SuitabilitySizeBonus": 0.8,
+    "MinTemp": 4,
+    "MaxTemp": 14,
+    "MinRain": 140,
+    "MaxRain": 255,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 60,
+    "MaxForest": 180,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.45
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/25/value", value:
+{
+    "Generator": "shrubwillow",
+    "Weight": 5,
+    "MinSize": 0.7,
+    "MaxSize": 1,
+    "MinTemp": -12,
+    "MaxTemp": 14,
+    "MinRain": 100,
+    "MaxRain": 255,
+    "MinFert": 0,
+    "MaxFert": 200,
+    "MinForest": 0,
+    "MaxForest": 120,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.5
+}
+},
+
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/26/value", value:
+{
+    "Generator": "redwillow",
+    "Weight": 2,
+        "SuitabilitySizeBonus": 0.7,
+    "MinTemp": -10,
+    "MaxTemp": -4,
+    "MinRain": 140,
+    "MaxRain": 255,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 60,
+    "MaxForest": 180,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.45
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/27/value", value:
+{
+    "Generator": "shrubredwillow",
+    "Weight": 5,
+    "MinSize": 0.7,
+    "MaxSize": 1,
+    "MinTemp": -12,
+    "MaxTemp": -4,
+    "MinRain": 100,
+    "MaxRain": 255,
+    "MinFert": 0,
+    "MaxFert": 200,
+    "MinForest": 0,
+    "MaxForest": 120,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.5
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/28/value", value:
+{
+    "Generator": "beech",
+    "Weight": 0,
+        "SuitabilitySizeBonus": 0,
+    "MinTemp": 0,
+    "MaxTemp": 0,
+    "MinRain": 0,
+    "MaxRain": 0,
+    "MinFert": 0,
+    "MaxFert": 0,
+    "MinForest": 0,
+    "MaxForest": 0,
+    "MinHeight": 0,
+    "MaxHeight": 0
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/29/value", value:
+{
+    "Generator": "ginkgo",
+    "Weight": 1,
+    "SuitabilitySizeBonus": 0.2,
+    "MinTemp": 15,
+    "MaxTemp": 20,
+    "MinRain": 90,
+    "MaxRain": 200,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 20,
+    "MaxForest": 190,
+    "MinHeight": 0.6,
+    "MaxHeight": 1
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/30/value", value:
+{
+    "Generator": "bearnut",
+    "Weight": 4,
+    "SuitabilitySizeBonus": 0.5,
+    "MinTemp": 5,
+    "MaxTemp": 20,
+    "MinRain": 110,
+    "MaxRain": 165,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 100,
+    "MaxForest": 190,
+    "MinHeight": 0,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/31/value", value:
+{
+    "Generator": "thinbearnut",
+    "Weight": 8,
+    "MinSize": 0.6,
+    "MaxSize": 0.9,
+    "MinTemp": 0,
+    "MaxTemp": 20,
+    "MinRain": 110,
+    "MaxRain": 165,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 100,
+    "MaxForest": 190,
+    "MinHeight": 0,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/32/value", value:
+{
+    "Generator": "sycamore",
+    "Weight": 5,
+        "SuitabilitySizeBonus": 0.6,
+    "MinTemp": 12,
+    "MaxTemp": 24,
+    "MinRain": 150,
+    "MaxRain": 195,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 120,
+    "MaxForest": 255,
+    "MinHeight": 0.1,
+    "MaxHeight": 0.5
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/33/value", value:
+{
+    "Generator": "thickamore",
+    "Weight": 1,
+        "SuitabilitySizeBonus": 0.2,
+    "MinTemp": 13,
+    "MaxTemp": 23,
+    "MinRain": 150,
+    "MaxRain": 195,
+    "MinFert": 160,
+    "MaxFert": 255,
+    "MinForest": 120,
+    "MaxForest": 255,
+    "MinHeight": 0.2,
+    "MaxHeight": 0.4
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/35/value", value:
+{
+    "Generator": "kauri",
+    "Weight": 4,
+    "MinSize": 0.8,
+    "MaxSize": 1.2,
+    "MinTemp": 16,
+    "MaxTemp": 26,
+    "MinRain": 200,
+    "MaxRain": 240,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 120,
+    "MaxForest": 240,
+    "MinHeight": 0.1,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/36/value", value:
+{
+    "Generator": "thickkauri",
+    "Weight": 1,
+    "MinSize": 0.8,
+    "MaxSize": 1.2,
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "MinRain": 210,
+    "MaxRain": 240,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 120,
+    "MaxForest": 240,
+    "MinHeight": 0.5,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/39/value", value:
+{
+    "Generator": "sourwood",
+    "Weight": 5,
+        "SuitabilitySizeBonus": 0.7,
+    "MinTemp": 16,
+    "MaxTemp": 24,
+    "MinRain": 150,
+    "MaxRain": 195,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 70,
+    "MaxForest": 255,
+    "MinHeight": 0.0,
+    "MaxHeight": 0.5
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/39/path", value:"/shrubgens/-"},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/44/value", value:
+{
+    "Generator": "eucalyptus",
+    "Weight": 10,
+    "SuitabilitySizeBonus": 0.5,
+    "MinTemp": 28,
+    "MaxTemp": 40,
+    "MinRain": 185,
+    "MaxRain": 200,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 120,
+    "MaxForest": 230,
+    "MinHeight": 0,
+    "MaxHeight": 0.5
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/48/value", value:
+{
+    "Generator": "honeylocust",
+    "Weight": 2,
+    "MinSize": 0.7,
+    "MaxSize": 1,
+    "MinTemp": 15,
+    "MaxTemp": 21,
+    "MinRain": 140,
+    "MaxRain": 180,
+    "MinFert": 90,
+    "MaxFert": 255,
+    "MinForest": 0,
+    "MaxForest": 160,
+    "MinHeight": 0,
+    "MaxHeight": 0.65
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/49/value", value:
+{
+    "Generator": "banyan",
+    "Weight": 1,
+    "SuitabilitySizeBonus": 0.4,
+    "MinTemp": 28,
+    "MaxTemp": 37,
+    "MinRain": 185,
+    "MaxRain": 255,
+    "MinFert": 160,
+    "MaxFert": 200,
+    "MinForest": 135,
+    "MaxForest": 255,
+    "MinHeight": 0.1,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/50/value", value:
+{
+    "Generator": "giantbanyan",
+    "Weight": 0.6,
+    "SuitabilitySizeBonus": 0.6,
+    "MinTemp": 28,
+    "MaxTemp": 37,
+    "MinRain": 185,
+    "MaxRain": 255,
+    "MinFert": 160,
+    "MaxFert": 200,
+    "MinForest": 135,
+    "MaxForest": 255,
+    "MinHeight": 0.1,
+    "MaxHeight": 0.6
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/52/value", value:
+{
+    "Generator": "tuja",
+    "Weight": 4,
+"SuitabilitySizeBonus": 0.4,
+    "MinTemp": 0,
+    "MaxTemp": 12,
+    "MinRain": 105,
+    "MaxRain": 255,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 0,
+    "MaxForest": 250,
+    "MinHeight": 0,
+    "MaxHeight": 0.8
+}
+},
+{ file: "wildcrafttree:patches/treegenproperties", op: "replace", path: "/53/value", value:
+{
+    "Generator": "crookedtuja",
+    "Weight": 1,
+"SuitabilitySizeBonus": 0.4,
+    "MinTemp": 0,
+    "MaxTemp": 12,
+    "MinRain": 85,
+    "MaxRain": 255,
+    "MinFert": 30,
+    "MaxFert": 255,
+    "MinForest": 0,
+    "MaxForest": 120,
+    "MinHeight": 0,
+    "MaxHeight": 0.8
+}
+},
+]

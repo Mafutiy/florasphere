@@ -1,0 +1,17 @@
+[ 
+	{ file: "game:recipes/grid/woodenfence", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "spruce"}, 
+    { file: "game:recipes/grid/woodenfence", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "fir"},
+    { file: "game:recipes/grid/woodenfence", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "aspen"},
+    { file: "game:recipes/grid/woodenfence", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "limba"}, 
+    { file: "game:recipes/grid/woodenfence", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "shorea"}, 
+    { file: "game:recipes/grid/woodenfence", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "baobab"},
+    { file: "game:recipes/grid/woodenfence", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "beech"},
+
+    { file: "game:recipes/grid/woodenfencegate", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "spruce"}, 
+    { file: "game:recipes/grid/woodenfencegate", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "fir"},
+    { file: "game:recipes/grid/woodenfencegate", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "aspen"},
+    { file: "game:recipes/grid/woodenfencegate", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "limba"}, 
+    { file: "game:recipes/grid/woodenfencegate", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "shorea"}, 
+    { file: "game:recipes/grid/woodenfencegate", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "baobab"},
+    { file: "game:recipes/grid/woodenfencegate", op: "add", path: "/0/ingredients/P/allowedVariants/-", value: "beech"}
+]

@@ -1,0 +1,107 @@
+[ 
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "dwarfpine"}, 
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "juniper"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "willow"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "blackthorn"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "buckthorn"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "laurel"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "erica"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "saxaul"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "macaranga"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/variantgroups/1/states/-", value: "combretum"},
+
+  { file: "game:blocktypes/plant/leaves/normal", op: "remove", path: "/shape/base"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/shape/baseByType", value: 
+    {
+			"*-fir": "block/plant/leaves/normal-fir",
+      "*-larch": "block/plant/leaves/normal-larch",
+			"*-spruce": "block/plant/leaves/normal-spruce",
+			"*-dwarfpine": "block/plant/leaves/normal-dwarfpine",
+			"*": "block/plant/leaves/normal"
+		}
+  },
+
+  { file: "game:blocktypes/plant/leaves/normal", op: "remove", path: "/lod0Shape/base"},
+  { file: "game:blocktypes/plant/leaves/normal", op: "add", path: "/lod0Shape/baseByType", value: 
+    {
+			"*-fir": "block/plant/leaves/normal-fir-lod0",
+      "*-larch": "block/plant/leaves/normal-larch-lod0",
+			"*-dwarfpine": "block/plant/leaves/normal-dwarfpine-lod0",
+			"*-spruce": "block/plant/leaves/normal-spruce-lod0",
+			"*": "block/plant/leaves/normal-lod0"
+		}
+  },
+
+  { file: "game:blocktypes/plant/leaves/normal", op: "replace", path: "/climateColorMapByType", value:
+    {
+      "*-crimsonkingmaple": "climateCrimsonKingTint",
+      "*-redwood": "climateDarkerPlantTint",
+      "*-joshua": "climateDarkerPlantTint",
+      "*-fir": "climateDarkerPlantTint",
+      "*-spruce": "climateDarkerPlantTint",
+      "*-dwarfpine": "climateDarkerPlantTint",
+      "*": "climatePlantTint"
+    }
+  },
+
+  { file: "game:blocktypes/plant/leaves/normal", op: "replace", path: "/seasonColorMapByType", value:
+    {
+      "*-pine": "seasonalNeedles",
+      "*-fir": "seasonalBirch",
+      "*-redwood": "seasonalNeedles",
+      "*-birch": "seasonalBirch",
+      "*-maple": "seasonalMaple",
+      "*-oak": "seasonalOak",
+      "*-walnut": "seasonalWalnut",
+      "*-larch": "seasonalBirch",
+      "*-spruce": "seasonalDarkerNeedles",
+      "*-crimsonkingmaple": "seasonalCrimsonKingMaple",
+      "*-kapok": "tropicalKapok",
+      "*-shorea": "tropicalKapok",
+      "*-macaranga": "tropicalKapok",
+      "*-dwarfpine": "seasonalNeedles",
+      "*-juniper": "seasonalNeedles",
+      "*": "seasonalFoliage"
+    }  
+  },
+
+  { file: "game:blocktypes/plant/leaves/normal", op: "replace", path: "/textures/largeleavesByType", value:
+    {
+			"*-larch": { base: "block/plant/leaves/large/pine*" },
+			"*-fir": { base: "block/plant/leaves/large/fir*" },
+			"*-redwood": { base: "block/plant/leaves/large/pine*" },
+			"*-spruce": { base: "block/plant/leaves/large/spruce*" },
+			"*-crimsonkingmaple": { base: "block/plant/leaves/large/maple*" },
+			"*-dwarfpine": { base: "block/plant/leaves/large/pine*" },
+			"*-juniper": { base: "block/plant/leaves/large/pine*" },
+			"*-laurel": { base: "block/plant/leaves/large/kapok*" },
+			"*-macaranga": { base: "block/plant/leaves/large/kapok*" },
+			"*-combretum": { base: "block/plant/leaves/large/acacia*" },
+			"*": { base: "block/plant/leaves/large/{wood}*" }
+	} 
+  },
+
+  { file: "game:blocktypes/plant/leaves/normal", op: "replace", path: "/textures/smallleavesByType", value:
+  {
+    "*-larch": { base: "block/plant/leaves/small/pine*" },
+    "*-fir": { base: "block/plant/leaves/small/fir*" },
+    "*-redwood": { base: "block/plant/leaves/small/pine*" },
+    "*-spruce": { base: "block/plant/leaves/small/spruce*" },
+    "*-crimsonkingmaple": { base: "block/plant/leaves/small/maple*" },
+    "*-dwarfpine": { base: "block/plant/leaves/small/pine*" },
+    "*-juniper": { base: "block/plant/leaves/small/pine*" },
+    "*-laurel": { base: "block/plant/leaves/small/kapok*" },
+    "*-macaranga": { base: "block/plant/leaves/small/kapok*" },
+    "*-combretum": { base: "block/plant/leaves/small/acacia*" },
+    "*": { base: "block/plant/leaves/small/{wood}*" }
+  }
+  }
+
+]
+
+
+
+
+    
+  
+   

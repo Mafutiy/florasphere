@@ -1,0 +1,5 @@
+[
+{ file: "game:blocktypes/soil/peat", op: "replace", path: "/drops/0/quantity/avg", 
+value: 1
+}
+]

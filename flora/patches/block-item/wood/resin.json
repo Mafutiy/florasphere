@@ -1,0 +1,5 @@
+[ 
+	{ file: "game:blocktypes/wood/woodtyped/log-withresin", op: "add", path: "/variantgroups/1/states/-", value: "spruce"}, 
+    { file: "game:blocktypes/wood/woodtyped/log-withresin", op: "add", path: "/variantgroups/1/states/-", value: "fir"},
+    { file: "game:blocktypes/wood/woodtyped/log-withresin", op: "add", path: "/variantgroups/1/states/-", value: "larch"}
+]

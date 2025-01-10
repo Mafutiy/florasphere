@@ -1,0 +1,69 @@
+[ 
+
+    { file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/creativeinventoryStacks/0/stacks/-", value: 
+    { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-spruce" } }
+    },
+    { file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/creativeinventoryStacks/0/stacks/-", value: 
+    { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-fir" } }
+    },
+    { file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/creativeinventoryStacks/0/stacks/-", value: 
+    { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-aspen" } }
+    },
+    { file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/creativeinventoryStacks/0/stacks/-", value: 
+    { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-limba" } }
+    },
+    { file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/creativeinventoryStacks/0/stacks/-", value: 
+    { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-shorea" } }
+    },
+    { file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/creativeinventoryStacks/0/stacks/-", value: 
+    { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-baobab" } }
+    },
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/creativeinventoryStacks/0/stacks/-", value: 
+    { type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-beech" } }
+    },
+
+
+    
+    { file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-spruce-inside", value: 
+	{ base: "block/wood/crate/spruce-inside" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-spruce-sides", value: 
+	{ base: "block/wood/crate/spruce-sides" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-fir-inside", value: 
+	{ base: "block/wood/crate/fir-inside" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-fir-sides", value: 
+	{ base: "block/wood/crate/fir-sides" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-aspen-inside", value: 
+	{ base: "block/wood/crate/aspen-inside" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-aspen-sides", value: 
+	{ base: "block/wood/crate/aspen-sides" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-limba-inside", value: 
+	{ base: "block/wood/crate/limba-inside" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-limba-sides", value: 
+	{ base: "block/wood/crate/limba-sides" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-shorea-inside", value: 
+	{ base: "block/wood/crate/shorea-inside" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-shorea-sides", value: 
+	{ base: "block/wood/crate/shorea-sides" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-baobab-inside", value: 
+	{ base: "block/wood/crate/baobab-sides" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-baobab-sides", value: 
+	{ base: "block/wood/crate/baobab-inside" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-beech-inside", value: 
+	{ base: "block/wood/crate/beech-sides" }
+	},
+	{ file: "game:blocktypes/wood/woodtyped/crate", op: "add", path: "/textures/wood-beech-sides", value: 
+	{ base: "block/wood/crate/beech-inside" }
+	}
+]

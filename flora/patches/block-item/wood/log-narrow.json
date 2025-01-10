@@ -1,0 +1,58 @@
+[ 
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "aged"}, 
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "dwarfpine"}, 
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "juniper"},
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "willow"},
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "blackthorn"}, 
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "laurel"}, 
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "saxaul"},
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "macaranga"},
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "erica"}, 
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "combretum"}, 
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "buckthorn"},
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/states/-", value: "finik"},
+  
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/variantgroups/1/loadFromProperties", value: "block/wood"},
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "replace", path: "/drops/0", value: 
+  { type: "block", code: "lognarrow-placed-{wood}-ud", quantity: { avg: 1 }  }
+  },
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/attributes/handbook", value: 
+  { groupBy: ["lognarrow-*"] }
+  },
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "/behaviorsByType/*/-", value: 
+  { name: "WrenchOrientable", properties: { baseCode: "lognarrow-*-{wood}"  } }
+  },
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "replace", path: "/shape", value: {}
+  },
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "0/shapebytype", value: {
+  "*-ud": { base: "block/wood/log/narrow8" },
+  "*-ns": { base: "block/wood/log/narrow8", rotateX: 90},
+  "*-we": { base: "block/wood/log/narrow8", rotateZ: 90} 
+  }
+  },
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "replace", path: "/collisionbox", value: {} },
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "replace", path: "/selectionbox", value: {} },
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "0/selectionboxesbytype", value: {
+    "*-ud": [{ x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 1, z2: 0.75 }],
+    "*-ns": [{ x1: 0.25, y1: 0.25, z1: 0, x2: 0.75, y2: 0.75, z2: 1 }],
+    "*-we": [{ x1: 0, y1: 0.25, z1: 0.25, x2: 1, y2: 0.75, z2: 0.75 }]
+    }
+  },
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "0/collisionboxbytype", value: {
+      "*-ud": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 1, z2: 0.75 },
+      "*-ns": { x1: 0.25, y1: 0.25, z1: 0, x2: 0.75, y2: 0.75, z2: 1 },
+      "*-we": { x1: 0, y1: 0.25, z1: 0.25, x2: 1, y2: 0.75, z2: 0.75 } 
+      }
+  },
+
+
+
+  { file: "game:blocktypes/wood/woodtyped/log-narrow", op: "add", path: "0/lightAbsorption", value: 1}
+]

@@ -1,0 +1,237 @@
+[ 
+	{ file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "spruce"}, 
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "fir"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "aspen"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "limba"}, 
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "shorea"}, 
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "baobab"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "beech"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "dwarfpine"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "juniper"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "willow"}, 
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "buckthorn"}, 
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "blackthorn"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "saxaul"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "erica"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "laurel"}, 
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "macaranga"}, 
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "combretum"},
+    { file: "game:itemtypes/resource/treeseed", op: "add", path: "/variantgroups/0/states/-", value: "finik"},
+  
+  
+    {
+      "op": "add",
+      "path": "/nutritionPropsByType/*-baobab",
+      "value": { satiety: 80, foodcategory: "Protein" 
+      },
+      "file": "game:itemtypes/resource/treeseed"
+    },
+    {
+      "op": "add",
+      "path": "/nutritionPropsByType/*-blackthorn",
+      "value": { satiety: 40, foodcategory: "Protein" 
+      },
+      "file": "game:itemtypes/resource/treeseed"
+    },
+    {
+      "op": "add",
+      "path": "/nutritionPropsByType/*-dwarfpine",
+      "value": { satiety: 40, foodcategory: "Protein" 
+      },
+      "file": "game:itemtypes/resource/treeseed"
+    },
+    {
+      "op": "add",
+      "path": "/nutritionPropsByType/*-finik",
+      "value": { satiety: 80, foodcategory: "Protein" 
+      },
+      "file": "game:itemtypes/resource/treeseed"
+    },
+  
+  
+  
+    {
+    "op": "add",
+    "path": "/guiTransformByType/*-baobab",
+    "value": {
+        rotation: { x: -1, y: 0, z: -146 },
+        origin: { x: 0.52, y: 0.4, z: 0.55 },
+        scale: 2.36
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+    {
+    "op": "add",
+    "path": "/guiTransformByType/*-beech",
+    "value": {
+	rotation: { x: -78, y: 43, z: 180 },
+	origin: { x: 0.51, y: -0, z: 0.59 },
+	scale: 2.05
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-spruce",
+    "value": {
+      rotation: { x: -12, y: 136, z: 180 },
+      origin: { x: 0.2, y: 0.14, z: 0.8 },
+      scale: 2.58
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-fir",
+    "value": {
+        rotation: { x: -12, y: 136, z: 180 },
+        origin: { x: 0.2, y: 0.14, z: 0.8 },
+        scale: 2.58
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-aspen",
+    "value": {
+        rotation: { x: 21, y: 48, z: 144 },
+        origin: { x: -0.1, y: -0.1, z: -0 },
+        scale: 2.43
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-limba",
+    "value": {
+        rotation: { x: -1, y: -49, z: 180 },
+        origin: { x: 0.5, y: 0.15, z: 0.6 },
+        scale: 2.52
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-shorea",
+    "value": {
+        rotation: { x: -12, y: -8, z: 133 },
+        origin: { x: 0.7, y: 0.23, z: -0.04 },
+        scale: 2.4
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-dwarfpine",
+    "value": {
+        rotation: { x: -22, y: 29, z: 180 },
+        origin: { x: 0.2, y: -0.1, z: 0 },
+        scale: 2.63
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-juniper",
+    "value": {
+        rotation: { x: -55, y: 41, z: 180 },
+        origin: { x: 0.25, y: -0.35, z: 0.1 },
+        scale: 2.37
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-willow",
+    "value": {
+        rotation: { x: 1, y: 17, z: 180 },
+        origin: { x: 0.5, y: 0.3, z: 0.2 },
+        scale: 2.38
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-buckthorn",
+    "value": {
+        rotation: { x: 119, y: -13, z: -3 },
+        origin: { x: 0.55, y: -0, z: 0.7 },
+        scale: 2.44
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-blackthorn",
+    "value": {
+        rotation: { x: 60, y: 41, z: -40 },
+        origin: { x: 1.22, y: -0.21, z: 0.27 },
+        scale: 3.36
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-laurel",
+    "value": {
+        rotation: { x: 76, y: 33, z: 1 },
+        origin: { x: 0.8, y: -2.1, z: 0.2 },
+        scale: 2.69
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-macaranga",
+    "value": {
+        rotation: { x: 168, y: 118, z: 0 },
+        origin: { x: -0.1, y: 0.37, z: 0 },
+        scale: 1.92
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-saxaul",
+    "value": {
+        rotation: { x: 91, y: 83, z: -30 },
+        origin: { x: 0.5, y: 0.6, z: 0.3 },
+        scale: 1.4
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-erica",
+    "value": {
+        rotation: { x: -34, y: 20, z: 0 },
+        origin: { x: 0.69, y: 0.5, z: 0 },
+        scale: 2.72
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-combretum",
+    "value": {
+        rotation: { x: -99, y: -36, z: 19 },
+        origin: { x: 0.4, y: -0, z: 0.7 },
+        scale: 2.87
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-finik",
+    "value": {
+      translation: { x: 0, y: 0, z: 0 },
+      rotation: { x: 83, y: 50, z: -11 },
+      origin: { x: 0.6, y: -0.4, z: 0.5 },
+      scale: 2.13
+    },
+    "file": "game:itemtypes/resource/treeseed"
+  },
+]

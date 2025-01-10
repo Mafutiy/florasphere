@@ -1,0 +1,356 @@
+[
+  { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/2/value", value:
+  {
+    "comment": "Patches of huckleberry bushes",
+    "blockCodes": [
+      "wildcraftfruit:berrybush-huckleberry-empty",
+      "wildcraftfruit:berrybush-huckleberry-flowering",
+      "wildcraftfruit:berrybush-huckleberry-ripe"
+    ],
+    "minTemp": -10,
+    "maxTemp": 10,
+    "minRain": 0.4,
+    "maxRain": 1,
+    "chance": 0.08,
+    "minY": 0.15,
+    "minFertility": 0.2,
+    "quantity": {
+      "dist": "invexp",
+      "avg": 7,
+      "var": 7
+    }
+  }
+  },  
+  { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/2/value", value:
+  {
+    "comment": "Rare large patches of huckleberry bushes",
+    "blockCodes": [
+      "wildcraftfruit:berrybush-huckleberry-empty",
+      "wildcraftfruit:berrybush-huckleberry-flowering",
+      "wildcraftfruit:berrybush-huckleberry-ripe"
+    ],
+    "minTemp": -8,
+    "maxTemp": 8,
+    "minRain": 0.5,
+    "maxRain": 1,
+    "chance": 0.02,
+    "minY": 0.15,
+    "minFertility": 0.2,
+    "quantity": {
+      "dist": "invexp",
+      "avg": 15,
+      "var": 15
+    }
+  }
+  },  
+  { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/4/value", value:
+    {
+        "comment": "Patches of raspberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-raspberry-empty",
+          "wildcraftfruit:pricklyberrybush-raspberry-flowering",
+          "wildcraftfruit:pricklyberrybush-raspberry-ripe"
+        ],
+        "minTemp": -6,
+        "maxTemp": 15,
+        "maxRain": 0.8,
+        "maxFertility": 0.5,
+        "maxForest": 0.8,
+        "maxY": 0.16,
+        "chance": 0.08,
+        "placement": "OnSurface",
+        "quantity": { "dist": "invexp", "avg": 3, "var": 10 }
+      }
+    },
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/5/value/chance", value: 0.02},
+
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/9/value/chance", value: 0.12},
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/9/value/minTemp", value: -6},
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/9/value/maxTemp", value: 14},
+
+    
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/20/value/maxForest", value: 0.6},
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/20/value/minTemp", value: 2},
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/20/value/maxTemp", value: 18},
+    
+
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/4/value", value:
+    {
+      "comment": "Rare large patches of dogrose bushes",
+      "blockCodes": [
+        "wildcraftfruit:pricklyberrybush-dogrose-empty",
+        "wildcraftfruit:pricklyberrybush-dogrose-flowering",
+        "wildcraftfruit:pricklyberrybush-dogrose-ripe"
+      ],
+      "minTemp": 6,
+      "maxTemp": 16,
+      "minRain": 0.4,
+      "maxRain": 0.8,
+      "chance": 0.03,
+      "minShrub": 0.2,
+      "maxY": 0.2,
+      "minFertility": 0.1,
+      "placement": "OnSurface",
+      "quantity": { "dist": "invexp", "avg": 10, "var": 15 }
+    }
+    },
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/21/value/chance", value: 0.04},
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/21/value/minTemp", value: 6},
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/21/value/maxTemp", value: 16},
+
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/24/value/minTemp", value: -4},
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/24/value/maxTemp", value: 16},
+
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/46/value/chance", value: 0.02},
+
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/11/value", value:
+    {
+      "comment": "Patches of crowberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:groundberryplant-crowberry-empty",
+        "wildcraftfruit:groundberryplant-crowberry-flowering",
+        "wildcraftfruit:groundberryplant-crowberry-ripe"
+      ],
+      "minTemp": -12,
+      "maxTemp": 2,
+      "minRain": 0.2,
+      "minForest": 0.4,
+      "maxForest": 0.8,
+"maxY": 0.12,
+      "chance": 0.12,
+      "placement": "OnSurface",
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 7
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 7
+      },
+      "quantity": {
+        "avg": 10,
+        "var": 5
+      }
+    }
+    },
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/12/value", value:
+    {
+      "comment": "Rare huge patches of crowberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:groundberryplant-crowberry-empty",
+        "wildcraftfruit:groundberryplant-crowberry-flowering",
+        "wildcraftfruit:groundberryplant-crowberry-ripe"
+      ],
+      "minTemp": -20,
+      "maxTemp": 2,
+      "minRain": 0.3,
+      "maxRain": 0.8,
+      "minForest": 0.5,
+      "maxForest": 0.75,
+"maxY": 0.12,
+      "chance": 0.08,
+      "placement": "OnSurface",
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 50,
+        "var": 25
+      }
+    }
+    },
+    
+    
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/13/value", value:
+    {
+        "comment": "Patches of cloudberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-cloudberry-empty",
+          "wildcraftfruit:groundberryplant-cloudberry-flowering",
+          "wildcraftfruit:groundberryplant-cloudberry-ripe"
+        ],
+        "minTemp": -17,
+        "maxTemp": -7,
+        "minRain": 0.8,
+        "maxForest": 0.8,
+        "minFertility": 0.4,
+        "chance": 0.6,
+	"maxY": 0.12,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 10
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 10
+        },
+        "quantity": {
+          "avg": 25,
+          "var": 45
+        }
+      }
+    },
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/31/value", value:
+    {
+        "comment": "Patches of knyazberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-knyazberry-empty",
+          "wildcraftfruit:groundberryplant-knyazberry-flowering",
+          "wildcraftfruit:groundberryplant-knyazberry-ripe"
+        ],
+        "minTemp": -14,
+        "maxTemp": -4,
+        "minRain": 0.5,
+        "maxForest": 0.6,
+        "minFertility": 0.3,
+        "chance": 0.04,
+	"maxY": 0.14,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      }
+    },
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/32/value", value:
+    {
+        "comment": "Patches of lingonberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-lingonberry-empty",
+          "wildcraftfruit:groundberryplant-lingonberry-flowering",
+          "wildcraftfruit:groundberryplant-lingonberry-ripe"
+        ],
+        "minTemp": -18,
+        "maxTemp": 6,
+        "minRain": 0.2,
+        "maxRain": 0.6,
+        "minForest": 0.3,
+	"maxY": 0.3,
+        "chance": 0.12,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 10
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 10
+        },
+        "quantity": {
+          "avg": 15,
+          "var": 7
+        }
+      }
+    },
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/33/value", value:
+    {
+        "comment": "Rare huge patches of lingonberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-lingonberry-empty",
+          "wildcraftfruit:groundberryplant-lingonberry-flowering",
+          "wildcraftfruit:groundberryplant-lingonberry-ripe"
+        ],
+        "minTemp": -16,
+        "maxTemp": -4,
+        "minRain": 0.2,
+        "maxRain": 0.9,
+        "minShrub": 0.1,
+	      "maxY": 0.2,
+        "chance": 0.1,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 10
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 10
+        },
+        "quantity": {
+          "avg": 50,
+          "var": 25
+        }
+      }
+    },
+
+
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/35/value", value:
+    {
+        "comment": "Patches of southern juniper bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-juniper-empty",
+          "wildcraftfruit:berrybush-juniper-flowering",
+          "wildcraftfruit:berrybush-juniper-ripe"
+        ],
+        "minTemp": 20,
+        "maxTemp": 40,
+        "minRain": 0,
+        "maxRain": 0.4,
+        "chance": 0.0004,
+	    "minY": 0.12,
+        "maxForest": 0.4,
+        "quantity": { "dist": "invexp", "avg": 2, "var": 4 }
+      },
+    },
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/36/value", value:
+    {
+        "comment": "Patches of northern juniper bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-juniper-empty",
+          "wildcraftfruit:berrybush-juniper-flowering",
+          "wildcraftfruit:berrybush-juniper-ripe"
+        ],
+        "minTemp": -10,
+        "maxTemp": 6,
+        "minRain": 0.4,
+        "maxRain": 0.9,
+        "chance": 0.002,
+	    "minY": 0.12,
+        "maxForest": 0.4,
+        "quantity": { "dist": "invexp", "avg": 5, "var": 10 }
+      }
+    },
+
+    { file: "wildcraftfruit:patches/worldgen/berries", op: "replace", path: "/38/value", value:
+{
+    "comment": "Patches of dwarf pine bushes",
+    "blockCodes": [
+      "wildcraftfruit:berrybush-dwarfpine-empty",
+      "wildcraftfruit:berrybush-dwarfpine-flowering",
+      "wildcraftfruit:berrybush-dwarfpine-ripe"
+    ],
+    "minTemp": -20,
+    "maxTemp": -8,
+    "minRain": 0.3,
+    "maxRain": 0.8,
+    "chance": 0.0004,
+    "minForest": 0.6,
+    "quantity": { "dist": "invexp", "avg": 3, "var": 8 }
+  },
+},
+]
