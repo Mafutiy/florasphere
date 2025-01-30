@@ -1,7 +1,0 @@
-[ 
-	{ file: "game:blocktypes/wood/woodtyped/log-section", op: "add", path: "/variantgroups/1/states/-", value: "baobab"}, 
-    { file: "game:blocktypes/wood/woodtyped/log-section", op: "add", path: "/variantgroups/1/states/-", value: "shorea"},
-    { file: "game:blocktypes/wood/woodtyped/log-section", op: "replace", path: "/textures/inside", value: 
-        { base: "block/wood/debarked/{wood}-2x2" }
-    }
-]

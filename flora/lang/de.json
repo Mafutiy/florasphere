@@ -5,7 +5,6 @@
     "game:block-lognarrow-*-limba-*": "Kleiner Limbabaumstamm",
     "game:block-lognarrow-*-shorea-*": "Kleiner Shoreastamm",
     "game:block-lognarrow-*-baobab-*": "Kleiner Baobabstamm",
-    "game:block-lognarrow-*-beech-*": "Kleiner Baobabstamm",
     "game:block-lognarrow-*-pine-*": "Kleiner Kiefernstamm",
     "game:block-lognarrow-*-larch-*": "Kleiner Lärchenstamm",
     "game:block-lognarrow-*-birch-*": "Kleiner Birkenstamm",
@@ -19,6 +18,7 @@
     "game:block-lognarrow-*-ebony-*": "Kleiner Ebenholzstamm",
     "game:block-lognarrow-*-acacia-*": "Kleiner Akazienstamm",
     "game:block-lognarrow-*-aged-*": "Kleiner Alter Baumstamm",
+    "game:block-lognarrow-*-beech-*": "Kleiner Buchenstamm",
 
     "game:block-log-*-fir-*": "Tannenstamm",
     "game:block-log-*-spruce-*": "Fichtenstamm",
@@ -26,8 +26,7 @@
     "game:block-log-*-limba-*": "Limbabaumstamm",
     "game:block-log-*-shorea-*": "Shoreastamm",
     "game:block-log-*-baobab-*": "Baobabstamm",
-    "game:block-log-*-beech-*": "Buchestamm",
-
+    "game:block-log-*-beech-*": "Buchenstamm",
 
     "game:block-log-resin-fir-*": "Erntbarer harzender Tannenstamm",
     "game:block-log-resin-spruce-*": "Erntbarer harzender Fichtenstamm",
@@ -42,7 +41,7 @@
     "game:block-debarkedlog-limba-*": "Entrindeter Limbabaumstamm",
     "game:block-debarkedlog-shorea-*": "Entrindeter Shoreastamm",
     "game:block-debarkedlog-baobab-*": "Entrindeter Baobabstamm",
-    "game:block-debarkedlog-beech-*": "Entrindeter Buchestamm",
+    "game:block-debarkedlog-beech-*": "Entrindeter Buchenstamm",
     
     "game:block-logsection-*-shorea-*": "Shorea-Viertelstamm",
     "game:block-logsection-*-baobab-*": "Baobab-Viertelstamm",
@@ -53,7 +52,7 @@
     "game:block-planks-limba-*": "Limbabaumbretter",
     "game:block-planks-shorea-*": "Shoreabretter",
     "game:block-planks-baobab-*": "Baobabbretter",
-    "game:block-planks-beech-*": "Buchebretter",
+    "game:block-planks-beech-*": "Buchenbretter",
 
     "game:block-plankslab-fir-*": "Tannen-Holzstufe",
     "game:block-plankslab-spruce-*": "Fichten-Holzstufe",
@@ -61,7 +60,7 @@
     "game:block-plankslab-limba-*": "Limbabaum-Holzstufe",
     "game:block-plankslab-shorea-*": "Shorea-Holzstufe",
     "game:block-plankslab-baobab-*": "Baobab-Holzstufe",
-    "game:block-plankslab-beech-*": "Buche-Holzstufe",
+    "game:block-plankslab-beech-*": "Buchen-Holzstufe",
 
     "game:block-plankstairs-fir-*": "Tannen-Holztreppe",
     "game:block-plankstairs-spruce-*": "Fichten-Holztreppe",
@@ -69,7 +68,7 @@
     "game:block-plankstairs-limba-*": "Limbabaum-Holztreppe",
     "game:block-plankstairs-shorea-*": "Shorea-Holztreppe",
     "game:block-plankstairs-baobab-*": "Baobab-Holztreppe",
-    "game:block-plankstairs-beech-*": "Buche-Holztreppe",
+    "game:block-plankstairs-beech-*": "Buchen-Holztreppe",
 
     "game:block-roughhewnfence-fir-*": "Grober Tannen-Holzzaun",
     "game:block-roughhewnfence-spruce-*": "Grober Fichten-Holzzaun",
@@ -77,7 +76,7 @@
     "game:block-roughhewnfence-limba-*": "Grober Limbabaum-Holzzaun",
     "game:block-roughhewnfence-shorea-*": "Grober Shorea-Holzzaun",
     "game:block-roughhewnfence-baobab-*": "Grober Baobab-Holzzaun", 
-    "game:block-roughhewnfence-beech-*": "Grober Buche-Holzzaun", 
+    "game:block-roughhewnfence-beech-*": "Grober Buchen-Holzzaun", 
 
     "game:block-roughhewnfencegate-fir-*": "Grobes Tannen-Holzzauntor",
     "game:block-roughhewnfencegate-spruce-*": "Grobes Fichten-Holzzauntor",
@@ -85,7 +84,7 @@
     "game:block-roughhewnfencegate-limba-*": "Grobes Limbabaum-Holzzauntor",
     "game:block-roughhewnfencegate-shorea-*": "Grobes Shorea-Holzzauntor",
     "game:block-roughhewnfencegate-baobab-*": "Grobes Baobab-Holzzauntor", 
-    "game:block-roughhewnfencegate-beech-*": "Grobes Buche-Holzzauntor", 
+    "game:block-roughhewnfencegate-beech-*": "Grobes Buchn-Holzzauntor", 
 
     "game:block-supportbeam-fir": "Stützbalken (Tanne)",
     "game:block-supportbeam-spruce": "Stützbalken (Fichte)",
@@ -101,7 +100,7 @@
     "game:block-wood-limba-crate": "Limbabaumkiste (geschlossen)",
     "game:block-wood-shorea-crate": "Shoreakiste (geschlossen)",
     "game:block-wood-baobab-crate": "Baobabkiste (geschlossen)", 
-    "game:block-wood-beech-crate": "Buchekiste (geschlossen)", 
+    "game:block-wood-beech-crate": "Buchenkiste (geschlossen)", 
 
     "game:material-fir": "Tanne",
     "game:material-spruce": "Fichte",
@@ -117,7 +116,7 @@
     "game:block-woodenfence-limba-*": "Limbabaum-Holzzaun",
     "game:block-woodenfence-shorea-*": "Shorea-Holzzaun",
     "game:block-woodenfence-baobab-*": "Baobab-Holzzaun", 
-    "game:block-woodenfence-beech-*": "Buche-Holzzaun", 
+    "game:block-woodenfence-beech-*": "Buchen-Holzzaun", 
 
     "game:block-woodenfencegate-fir-*": "Tannen-Holzzauntor",
     "game:block-woodenfencegate-spruce-*": "Fichten-Holzzauntor",
@@ -125,7 +124,7 @@
     "game:block-woodenfencegate-limba-*": "Limbabaum-Holzzauntor",
     "game:block-woodenfencegate-shorea-*": "Shorea-Holzzauntor",
     "game:block-woodenfencegate-baobab-*": "Baobab-Holzzauntor", 
-    "game:block-woodenfencegate-beech-*": "Buche-Holzzauntor", 
+    "game:block-woodenfencegate-beech-*": "Buchen-Holzzauntor", 
 
     "game:block-leavesbranchy-*-fir": "Tannennadeln mit Zweigen",
     "game:block-leavesbranchy-*-spruce": "Fichtennadeln mit Zweigen",
@@ -133,7 +132,7 @@
     "game:block-leavesbranchy-*-limba": "Limbabaumblätter mit Zweigen",
     "game:block-leavesbranchy-*-shorea": "Shoreablätter mit Zweigen",
     "game:block-leavesbranchy-*-baobab": "Baobabblätter mit Zweigen",
-    "game:block-leavesbranchy-*-beech": "Bucheblätter mit Zweigen",
+    "game:block-leavesbranchy-*-beech": "Buchenblätter mit Zweigen",
 
     "game:block-leaves-*-fir": "Tannennadeln",
     "game:block-leaves-*-spruce": "Fichtennadeln",
@@ -141,7 +140,7 @@
     "game:block-leaves-*-limba": "Limbabaumblätter",
     "game:block-leaves-*-shorea": "Shoreablätter",
     "game:block-leaves-*-baobab": "Baobabblätter",
-    "game:block-leaves-*-beech": "Bucheblätter",
+    "game:block-leaves-*-beech": "Buchenblätter",
 
     "game:block-glasspane-*-fir-*": "Bleiverglasung (Tanne)",
     "game:block-glasspane-*-spruce-*": "Bleiverglasung (Fichte)",
@@ -157,7 +156,7 @@
     "game:block-sapling-limba-*": "Limbabaumsetzling",
     "game:block-sapling-shorea-*": "Shoreasetzling",
     "game:block-sapling-baobab-*": "Baobabsetzling",
-    "game:block-sapling-beech-*": "Buchesetzling",
+    "game:block-sapling-beech-*": "Buchensetzling",
 
     "game:block-wildbeehive-inlog-fir": "Wilder Bienenstock im Tannenbaum",
     "game:block-wildbeehive-inlog-spruce": "Wilder Bienenstock im Fichtenbaum",
@@ -165,7 +164,7 @@
     "game:block-wildbeehive-inlog-limba": "Wilder Bienenstock im Limbabaum",
     "game:block-wildbeehive-inlog-shorea": "Wilder Bienenstock im Shoreabaum",
     "game:block-wildbeehive-inlog-baobab": "Wilder Bienenstock im Baobabbaum",
-    "game:block-wildbeehive-inlog-beech": "Wilder Bienenstock im Buchebaum",
+    "game:block-wildbeehive-inlog-beech": "Wilder Bienenstock im Buchenbaum",
 
     "game:item-boat-raft-fir": "Tannenfloß",
     "game:item-boat-raft-spruce": "Fichtenfloß",
@@ -173,7 +172,7 @@
     "game:item-boat-raft-limba": "Limbabaumfloß",
     "game:item-boat-raft-shorea": "Shoreafloß",
     "game:item-boat-raft-baobab": "Baobabfloß",
-    "game:item-boat-raft-beech": "Buchefloß",
+    "game:item-boat-raft-beech": "Buchenfloß",
 
     "game:item-creature-boat-raft-fir": "Tannenfloß",
     "game:item-creature-boat-raft-spruce": "Fichtenfloß",
@@ -181,7 +180,7 @@
     "game:item-creature-boat-raft-limba": "Limbabaumfloß",
     "game:item-creature-boat-raft-shorea": "Shoreafloß",
     "game:item-creature-boat-raft-baobab": "Baobabfloß",
-    "game:item-creature-boat-raft-beech": "Buchefloß",
+    "game:item-creature-boat-raft-beech": "Buchenfloß",
 
     "game:item-oar-crude-fir": "Grobes Ruder (Tanne)",
     "game:item-oar-crude-spruce": "Grobes Ruder (Fichte)",
@@ -197,7 +196,7 @@
     "game:item-treeseed-limba": "Limbabaumsamen",
     "game:item-treeseed-shorea": "Shoreasamen",
     "game:item-treeseed-baobab": "Baobabsamen",
-    "game:item-treeseed-beech": "Buchesamen",
+    "game:item-treeseed-beech": "Buchensamen",
 
     "game:treeseed-*-fir": "Gepflanzter Tannensamen",
     "game:treeseed-*-spruce": "Gepflanzter Fichtensamen",
@@ -205,7 +204,7 @@
     "game:treeseed-*-limba": "Gepflanzter Limbabaumsamen",
     "game:treeseed-*-shorea": "Gepflanzter Shoreasamen",
     "game:treeseed-*-baobab": "Gepflanzter Baobabsamen",
-    "game:treeseed-*-beech": "Gepflanzter Buchesamen",
+    "game:treeseed-*-beech": "Gepflanzter Buchensamen",
 
     "game:item-plank-fir": "Tannenbrett",
     "game:item-plank-spruce": "Fichtenbrett",
@@ -213,7 +212,7 @@
     "game:item-plank-limba": "Limbabaumbrett",
     "game:item-plank-shorea": "Shoreabrett",
     "game:item-plank-baobab": "Baobabbrett",
-    "game:item-plank-beech": "Buchebrett",
+    "game:item-plank-beech": "Buchenbrett",
 
     "game:block-lognarrow-*-dwarfpine-*": "Kleiner Zwergkieferstamm",
     "game:block-lognarrow-*-juniper-*": "Kleiner Wacholderstamm",

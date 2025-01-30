@@ -518,10 +518,12 @@
     "game:item-boatseat-shorea": "Скамейка из шореи",
     "game:item-boatseat-baobab": "Скамейка из баобаба",
 
-    "game:block-palm-*-finik-*": "Листва финиковой пальмы",
+    "game:block-palm-*-finik": "Листва финиковой пальмы",
     "game:block-lognarrow-*-finik-*": "Маленькое бревно финиковой пальмы",
     "game:treeseed-*-finik": "Посаженное семя финиковой пальмы",
     "game:block-sapling-finik-*": "Саженец финиковой пальмы",
     "game:item-treeseed-finik": "Семена финиковой пальмы",
+
+    "game:block-logcrooked-*-saxaul-*": "Кривое бревно саксаула",
 
 }
