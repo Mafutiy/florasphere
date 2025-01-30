@@ -1,9 +1,0 @@
-[
-    { file: "game:recipes/grid/glasspane", op: "add", path: "/ingredients/W/allowedVariants/-", value: "spruce"}, 
-    { file: "game:recipes/grid/glasspane", op: "add", path: "/ingredients/W/allowedVariants/-", value: "fir"},
-    { file: "game:recipes/grid/glasspane", op: "add", path: "/ingredients/W/allowedVariants/-", value: "aspen"},
-    { file: "game:recipes/grid/glasspane", op: "add", path: "/ingredients/W/allowedVariants/-", value: "limba"}, 
-    { file: "game:recipes/grid/glasspane", op: "add", path: "/ingredients/W/allowedVariants/-", value: "shorea"}, 
-    { file: "game:recipes/grid/glasspane", op: "add", path: "/ingredients/W/allowedVariants/-", value: "baobab"},
-    { file: "game:recipes/grid/glasspane", op: "add", path: "/ingredients/W/allowedVariants/-", value: "beech"}
-]
