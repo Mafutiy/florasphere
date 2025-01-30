@@ -494,10 +494,12 @@
     "game:item-boatseat-shorea": "Shorea boat seat",
     "game:item-boatseat-baobab": "Baobab boat seat",
 
-    "game:block-palm-*-finik-*": "Date palm leaves",
+    "game:block-palm-*-finik": "Date palm leaves",
     "game:block-lognarrow-*-finik-*": "Small date palm log",
     "game:treeseed-*-finik": "Planted date palm seed",
     "game:block-sapling-finik-*": "Date palm sapling",
-    "game:item-treeseed-finik": "Date palm seed"
+    "game:item-treeseed-finik": "Date palm seed",
+
+    "game:block-logcrooked-*-saxaul-*": "Crooked saxaul log",
 }
 
