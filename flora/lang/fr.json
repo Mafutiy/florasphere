@@ -497,6 +497,8 @@
     "game:block-lognarrow-*-finik-*": "Petit rondin de dattier",
     "game:treeseed-*-finik": "Graine de dattier plantée",
     "game:block-sapling-finik-*": "Jeune dattier",
-    "game:item-treeseed-finik": "Graine de dattier"
+    "game:item-treeseed-finik": "Graine de dattier",
+	
+    "game:block-logcrooked-*-saxaul-*": "Rondin courbé de haloxylon"
 }
 
